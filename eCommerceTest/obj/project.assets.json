@@ -377,6 +377,15 @@
             "related": ".xml"
           }
         }
+      },
+      "A2Team/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/A2Team.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/A2Team.dll": {}
+        }
       }
     }
   },
@@ -969,10 +978,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "A2Team/1.0.0": {
+      "type": "project",
+      "path": "../A2Team/A2Team.csproj",
+      "msbuildProject": "../A2Team/A2Team.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "A2Team >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.7.1",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.6.1",
@@ -1012,7 +1027,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\A2Team\\A2Team\\A2Team.csproj": {
+              "projectPath": "D:\\A2Team\\A2Team\\A2Team.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
