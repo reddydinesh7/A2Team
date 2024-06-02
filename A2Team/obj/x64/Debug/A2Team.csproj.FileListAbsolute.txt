@@ -1,0 +1,7 @@
+D:\A2Team\A2Team\bin\x64\Debug\A2Team.exe.config
+D:\A2Team\A2Team\bin\x64\Debug\A2Team.exe
+D:\A2Team\A2Team\bin\x64\Debug\A2Team.pdb
+D:\A2Team\A2Team\obj\x64\Debug\A2Team.csproj.AssemblyReference.cache
+D:\A2Team\A2Team\obj\x64\Debug\A2Team.csproj.CoreCompileInputs.cache
+D:\A2Team\A2Team\obj\x64\Debug\A2Team.exe
+D:\A2Team\A2Team\obj\x64\Debug\A2Team.pdb

@@ -8,43 +8,32 @@ namespace A2Team
 {
     public class eCommerce
     {
-          // Properties
-    public int ProductID { get; private set; }
-    public string ProductName { get; private set; }
-    public decimal Price { get; private set; }
-    public int Stock { get; private set; }
+        // Properties
+        public int ProductID { get; set; }
+        public string ProductName { get; set; }
+        public decimal Price { get; set; }
+        public int Stock { get; private set; }
 
-    // Constructor
-    public eCommerce(int productID, string productName, decimal price, int stock)
-    {
-        // Validate and assign ProductID
-        if (productID < 1 || productID > 1000)
+        // Constructor
+        public eCommerce(int productID, string productName, decimal price, int stock)
         {
-            throw new ArgumentOutOfRangeException(nameof(productID), "ProductID must be between 1 and 1000.");
-        }
-        ProductID = productID;
+            if (productID < 1 || productID > 1000)
+                throw new ArgumentException("ProductID must be between 1 and 1000.");
 
-        // Validate and assign ProductName
-        if (string.IsNullOrWhiteSpace(productName))
-        {
-            throw new ArgumentException("ProductName cannot be null or whitespace.", nameof(productName));
-        }
-        ProductName = productName;
+            if (string.IsNullOrEmpty(productName))
+                throw new ArgumentException("ProductName cannot be null or empty.");
 
-        // Validate and assign Price
-        if (price < 1m || price > 5000m)
-        {
-            throw new ArgumentOutOfRangeException(nameof(price), "Price must be between $1 and $5000.");
-        }
-        Price = price;
+            if (price < 1 || price > 5000)
+                throw new ArgumentException("Price must be between $1 and $5000.");
 
-        // Validate and assign Stock
-        if (stock < 1 || stock > 1000)
-        {
-            throw new ArgumentOutOfRangeException(nameof(stock), "Stock must be between 1 and 1000.");
+            if (stock < 1 || stock > 1000)
+                throw new ArgumentException("Stock must be between 1 and 1000.");
+
+            ProductID = productID;
+            ProductName = productName;
+            Price = price;
+            Stock = stock;
         }
-        Stock = stock;
-    }
 
         // Methods
         public void IncreaseStock(int quantity)
