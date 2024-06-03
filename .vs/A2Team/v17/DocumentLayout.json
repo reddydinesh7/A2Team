@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\A2Team\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{10640189-8F7C-41D3-A4F8-C0AD04618BA6}|A2Team\\A2Team.csproj|d:\\a2team\\a2team\\ecommerce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10640189-8F7C-41D3-A4F8-C0AD04618BA6}|A2Team\\A2Team.csproj|solutionrelative:a2team\\ecommerce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{00D2F850-F09B-4838-BE0A-CEB4897153CD}|eCommerceTest\\eCommerceTest.csproj|d:\\a2team\\ecommercetest\\ecommercetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00D2F850-F09B-4838-BE0A-CEB4897153CD}|eCommerceTest\\eCommerceTest.csproj|solutionrelative:ecommercetest\\ecommercetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{10640189-8F7C-41D3-A4F8-C0AD04618BA6}|A2Team\\A2Team.csproj|d:\\a2team\\a2team\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{10640189-8F7C-41D3-A4F8-C0AD04618BA6}|A2Team\\A2Team.csproj|solutionrelative:a2team\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +14,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "eCommerceTest.cs",
               "DocumentMoniker": "D:\\A2Team\\eCommerceTest\\eCommerceTest.cs",
               "RelativeDocumentMoniker": "eCommerceTest\\eCommerceTest.cs",
               "ToolTip": "D:\\A2Team\\eCommerceTest\\eCommerceTest.cs",
               "RelativeToolTip": "eCommerceTest\\eCommerceTest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFgAAAAAAAAA",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAIwNcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T16:23:06.763Z",
+              "WhenOpened": "2024-06-02T16:47:47.098Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "eCommerce.cs",
-              "DocumentMoniker": "D:\\A2Team\\A2Team\\eCommerce.cs",
-              "RelativeDocumentMoniker": "A2Team\\eCommerce.cs",
-              "ToolTip": "D:\\A2Team\\A2Team\\eCommerce.cs",
-              "RelativeToolTip": "A2Team\\eCommerce.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T16:14:46.914Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\A2Team\\A2Team\\Program.cs",
-              "RelativeDocumentMoniker": "A2Team\\Program.cs",
-              "ToolTip": "D:\\A2Team\\A2Team\\Program.cs",
-              "RelativeToolTip": "A2Team\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T16:14:11.767Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -2,7 +2,7 @@
 using System;
 using NUnit.Framework;
 
-namespace ProductTest
+namespace eCommerceTest
 {
     [TestFixture]
     public class eCommerceTest
